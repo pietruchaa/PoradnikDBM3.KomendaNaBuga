@@ -1,0 +1,1 @@
+# PoradnikDBM3.KomendaNaBuga
