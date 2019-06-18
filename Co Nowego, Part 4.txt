@@ -1,0 +1,16 @@
+Wersja: v0.3
+=.=PL:=.=
+**Co Nowego?**
+- Możesz wejść na serwer (na którym dokonano czynu), poprzez zaproszenie które twój bot wygenerował.
+- Poprawa styli.
+- Naprawiono kilka błędów.
+- Usuniętno date/godzine stworzenia serwera na którym dokonano czynu.
+- Dodano date stworzenia raportu.
+
+=.=ENG:=.=
+**What's new?**
+- You can enter the server (on which the action was made), through the invitation that your bot generated.
+- Style improvement.
+- Several bugs fixed.
+- Removed date/hour of creating the server on which the action was performed.
+- Date of creation of the report has been added.

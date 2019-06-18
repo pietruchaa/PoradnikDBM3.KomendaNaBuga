@@ -1,0 +1,12 @@
+MASZ VPSA?
+Musisz to wtedy zainstalować inaczej niż zwykle. (Nie chodzi mi tutaj o wkładanie raw daty do projektu w DBM).
+[Zmiana strefy czasowej na serwerze VPS, byś mógł zobaczyć kiedy nowy raport został stworzony na serwerze.
+
+1. Przejdź do twojego terminala, np. (PuTTy).
+2. Wpisz polecenie sudo dpkg-reconfigure tzdata
+3. Wybierz Europe
+4. Wybierz Warsaw
+5. Wpisz komende date
+6. Sprawdź czy data i godzina się zgadza.
+
+Gratulację! Od teraz będziesz wiedzieć o której godzinie został wygenerowany nowy raport!

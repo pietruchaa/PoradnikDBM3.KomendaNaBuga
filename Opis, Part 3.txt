@@ -1,0 +1,3 @@
+Pamiętaj, że ten skrypt nie wysyła do Ciebie raportów, tylko tworzy plik na twoim komputerze. 
+Za każdym razem, po zastosowaniu pojawi ci się raport w projekcie twojego bota. 
+Jest to strona WWW.
