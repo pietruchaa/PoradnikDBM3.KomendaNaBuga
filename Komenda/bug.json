@@ -1,10 +1,15 @@
-{
+﻿{
   "name": "bug",
   "permissions": "NONE",
   "restriction": "1",
   "actions": [
     {
-      "comment": "<b>Zrobione przez:</b> Taki Tam Slu 🔥 #5916",
+      "comment": "• <b>UWAGA!</b> Komenda ta wymaga modułu mkdirp. Zainstaluj go! <b>npm install mkdirp</b>",
+      "color": "#ff0000",
+      "name": "Comment"
+    },
+    {
+      "comment": "• <b>Zrobione przez:</b> Taki Tam Slu 🔥 #5916",
       "color": "#00ffff",
       "name": "Comment"
     },
@@ -14,12 +19,12 @@
       "name": "Comment"
     },
     {
-      "comment": "Wersja: <b>v0.3</b>",
+      "comment": "• Wersja: <b>v0.4</b>",
       "color": "#ffff00",
       "name": "Comment"
     },
     {
-      "comment": "<b>Nowości znajdziesz w raporcie wygenerowanym po zastosowaniu tej komendy.</b>",
+      "comment": "• <b>Nowości znajdziesz w raporcie wygenerowanym po zastosowaniu tej komendy.</b>",
       "color": "#ffff00",
       "name": "Comment"
     },
@@ -29,12 +34,12 @@
       "name": "Comment"
     },
     {
-      "comment": "Pamiętaj, że ten skrypt nie wysyła do Ciebie raportów, tylko tworzy plik na twoim komputerze. ",
+      "comment": "• Pamiętaj, że ten skrypt nie wysyła do Ciebie raportów, tylko tworzy plik na twoim komputerze. ",
       "color": "#ff0000",
       "name": "Comment"
     },
     {
-      "comment": "Za każdym razem, po zastosowaniu pojawi ci się raport w projekcie twojego bota. Jest to strona WWW.",
+      "comment": "• Za każdym razem, po zastosowaniu pojawi ci się raport w projekcie twojego bota. Jest to strona WWW.",
       "color": "#ff0000",
       "name": "Comment"
     },
@@ -84,11 +89,20 @@
       "title": "",
       "author": "Wysłanie wiadomości nie powiodło się",
       "color": "#FEA101",
-      "timestamp": "true",
       "url": "",
-      "authorIcon": "${tempVars(\"ikonaSerwera\") || \"http://db.filemon-bot.pl/bot/err/err01.png\"}",
+      "authorIcon": "${tempVars(\"ikonaSerwera\") || \"https://db.filemon-bot.pl/bot/img.userERR01.png\"}",
+      "authorUrl": "",
       "imageUrl": "",
-      "thumbUrl": "${tempVars(\"avatarSprawcy\") || \"http://db.filemon-bot.pl/bot/err/err02.png\"}",
+      "thumbUrl": "${tempVars(\"avatarSprawcy\") || \"https://db.filemon-bot.pl/bot/img.userERR01.png\"}",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
       "storage": "1",
       "varName": "embed-blad1",
       "name": "Create Embed Message"
@@ -96,7 +110,7 @@
     {
       "storage": "1",
       "varName": "embed-blad1",
-      "message": "Prawdopodobnie nie podałeś żadnego wyjaśnienia błędu lub jest on za krótki.\n`${tempVars(\"botPrefix\") || \"//\"}bug <opis>`",
+      "message": "Prawdopodobnie nie podałeś żadnego wyjaśnienia błędu lub jest on za krótki.\n`${tempVars(\"botPrefix\") || \"//\"}bug <opis>`\n\n> Komenda stworzona przez **Taki Tam Slu 🔥#5916**",
       "name": "Set Embed Description"
     },
     {
@@ -132,11 +146,20 @@
       "title": "",
       "author": "Wysłanie wiadomości nie powiodło się",
       "color": "#FEA101",
-      "timestamp": "true",
       "url": "",
-      "authorIcon": "${tempVars(\"ikonaSerwera\") || \"http://db.filemon-bot.pl/bot/err/err01.png\"}",
+      "authorIcon": "${tempVars(\"ikonaSerwera\") || \"https://db.filemon-bot.pl/bot/img.userERR01.png\"}",
+      "authorUrl": "",
       "imageUrl": "",
-      "thumbUrl": "${tempVars(\"avatarSprawcy\") || \"http://db.filemon-bot.pl/bot/err/err02.png\"}",
+      "thumbUrl": "${tempVars(\"avatarSprawcy\") || \"https://db.filemon-bot.pl/bot/img.userERR01.png\"}",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
       "storage": "1",
       "varName": "embed-blad2",
       "name": "Create Embed Message"
@@ -144,7 +167,7 @@
     {
       "storage": "1",
       "varName": "embed-blad2",
-      "message": "Nie posiadam uprawnień do tworzenia zaproszeń na tym serwerze, by administrator bota mógł wejść na serwer i rozpatrzeć problem.",
+      "message": "Nie posiadam uprawnień do tworzenia zaproszeń na tym serwerze, by administrator bota mógł wejść na serwer i rozpatrzeć problem.\n> Komenda stworzona przez **Taki Tam Slu 🔥#5916**",
       "name": "Set Embed Description"
     },
     {
@@ -171,6 +194,13 @@
       "name": "Create Invite"
     },
     {
+      "info": "1",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "Opis-Buga",
+      "name": "Store Command Params"
+    },
+    {
       "comment": "Wszystkie sekcje, błędy użytkownika popełnione w użyciu polecenia sprawdzone! ",
       "color": "#ffff00",
       "name": "Comment"
@@ -181,27 +211,20 @@
       "name": "Comment"
     },
     {
-      "info": "1",
-      "infoIndex": "1",
-      "storage": "1",
-      "varName": "Opis-Buga",
-      "name": "Store Command Params"
-    },
-    {
       "member": "1",
       "varName": "",
-      "info": "2",
+      "info": "22",
       "storage": "1",
-      "varName2": "nickSprawcy",
+      "varName2": "nickTagSprawcy",
       "name": "Store Member Info"
     },
     {
       "member": "1",
       "varName": "",
-      "info": "5",
+      "info": "3",
       "storage": "1",
-      "varName2": "tagSprawcy",
-      "name": "Store Member Things"
+      "varName2": "nickSprawcy",
+      "name": "Store Member Info"
     },
     {
       "member": "1",
@@ -265,6 +288,11 @@
       "name": "Store Server Info"
     },
     {
+      "comment": "<b>--------------------------------------------------------------------------</b>",
+      "color": "#000000",
+      "name": "Comment"
+    },
+    {
       "type": "3",
       "storage": "1",
       "varName": "godzina",
@@ -301,32 +329,32 @@
       "name": "Store Time Info"
     },
     {
+      "comment": "Wszystko git! Wysyłamy raport na serwer...",
+      "color": "#00ffff",
+      "name": "Comment"
+    },
+    {
       "comment": "<b>--------------------------------------------------------------------------</b>",
       "color": "#000000",
       "name": "Comment"
     },
     {
-      "comment": "<u><b>/\\& UWAGA! &/\\</b</u>",
+      "comment": "• <u><b>/\\& UWAGA! &/\\</b</u>",
       "color": "#800040",
       "name": "Comment"
     },
     {
-      "comment": "Plik z raportem stworzy ci się w lokalizacji: ",
-      "color": "#00FF00",
+      "comment": "• Plik z raportem stworzy ci się w lokalizacji: ",
+      "color": "#00ff00",
       "name": "Comment"
     },
     {
-      "comment": "<code><b>W głównym katalogu projektu twojego bota.</b></code>",
+      "comment": "• <code><b>W głównym katalogu projektu twojego bota.</b></code>",
       "color": "#000000",
       "name": "Comment"
     },
     {
-      "comment": "W tym katalogu musi się jeszcze znajdować jeden plik o nazwie <code>favicon.ico</code>",
-      "color": "#000000",
-      "name": "Comment"
-    },
-    {
-      "input": "<!DOCTYPE html>\n<html lang=\"pl\">\n    <!-- \n\t» {LICENSE:}\n\t\n    » *PL:*\n    • Skrypt zrobiony przez: Taki Tam Slu 🔥#5916.\n    • Wersja: v0.3\n    • Możesz kożystać z tej komendy, skryptu jeśli zostawisz ten wpis.\n\t**Co Nowego?**\n\t- Możesz wejść na serwer (na którym dokonano czynu), poprzez zaproszenie które twój bot wygenerował.\n\t- Poprawa styli.\n\t- Naprawiono kilka błędów.\n\t- Usuniętno date/godzine stworzenia serwera na którym dokonano czynu.\n\t- Dodano date stworzenia raportu.\n\n    » *ENG:*\n    • Script made by: Taki Tam Slu 🔥 # 5916.\n     • Version: v0.3\n     • You can use this command, script if you leave this entry.\n\t**What's new?**\n\t- You can enter the server (on which the action was made), through the invitation that your bot generated.\n\t- Style improvement.\n\t- Several bugs fixed.\n\t- Removed date/hour of creating the server on which the action was performed.\n\t- Date of creation of the report has been added.\n    -->\n<head>\n    <meta charset=\"utf-8\">\n\t<title>Raport</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <link href=\"img/favicon.ico\" rel=\"shortcut icon\">\n</head>\n<body>\n    <!-- WSTĘP -->\n    <center>\n        <font size=\"6px\" color=\"blue\">\n            <b>\n                » Buga zgłosił: <code>${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}</code>.<br>\n            </b>\n        </font>\n        <font size=\"3px\">\n\t\t\t<b>\n\t\t\t\tData wygenerowania raportu:\n\t\t\t</b> \n\t\t\t<code>\n\t\t\t\t${tempVars(\"godzina\")}:${tempVars(\"minuta\")}:${tempVars(\"sekunda\")},\n\t\t\t</code>\n\t\t\t<b>\n\t\t\t\tdnia\n\t\t\t</b>\n\t\t\t<code>\n\t\t\t\t${tempVars(\"dzien\")}.${tempVars(\"miesiac\")}.${tempVars(\"rok\")}\n\t\t\t</code>\n\t\t\t<br>\n        <b>\n            Bot:\n        </b> \n            Wpisz tutaj nazwe swojego bota, bez tagu. <i>Nie Wymagane!</i><br>\n        </font>\n    </center>   \n    <hr>\n\n\n\n\t\n    <font size=\"5px\" color=\"#b803ff\" face=\"cursive\" align=\"center\">\n\t\t<center>\n\t\t»\n\t\t\t<b>\n\t\t\t\t<u>Informację o zgłaszającym:</u>\n\t\t\t</b>\n\t\t«\n\t\t</center>\t\t\n    </font>\t\n\t\n    • <b>Nick zgłaszającego:</b> ${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Tag zgłaszającego:</b> <code>#${tempVars(\"tagSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}</code><br>\n    • <b>ID zgłaszającego:</b> ${tempVars(\"idSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Link do awatara:</b> <a href=\"${tempVars(\"avatarSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" title=\"${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" target=\"_blank\"><code><b>Kliknij</b></code></a><br>\n\n    <!-- SERWER -->\n\t<br>\n    <font size=\"5px\" color=\"#b803ff\" face=\"cursive\">\n\t\t<center>\n\t\t»\n\t\t\t<b>\n\t\t\t\t<u>Informację o serwerze, na którym dokonano czynu:</u>\n\t\t\t</b>\n\t\t«\n\t\t</center>\t\t\n    </font>\t\n\t\t<font size=\"4px\" color=\"black\">\n\t\t\t<center>\n\t\t\t\t<b>\n\t\t\t\t\t<code>\n\t\t\t\t\t\t<i>\n\t\t\t\t\t\t\t» Zapro na serwer, <a href=\"${tempVars(\"zapro\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" title=\"Zaproszenie na serwer na którym dokonao czynu.\" target=\"_blank\">Kliknij!</a><br>\n\t\t\t\t\t\t</i>\n\t\t\t\t\t</code>\n\t\t\t\t</b> \n\t\t\t</center>\n\t\t</font>\n    • <b>Nazwa serwera:</b> ${tempVars(\"nazwaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>ID serwera:</b> ${tempVars(\"idSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Twórca serwera:</b> ${tempVars(\"tworcaSerwera.NICK\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>ID twórcy serwera:</b> ${tempVars(\"tworcaSerwera.ID\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Ludność na serwerze:</b> ${tempVars(\"osoby.na.SERWERZE\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Link do awatara:</b> <a href=\"${tempVars(\"ikonaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" title=\"${tempVars(\"nazwaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" target=\"_blank\"><code><b>Kliknij</b></code></a><br>\n\n\n    <hr>\n    <!-- Awatar użytkownika, po lewej. -->\n    <div style='float:left'>\n        <font size=\"4px\">\n            <center><b>• Awatar użytkownika:</b></center>\n                <a\n                    href=\"${tempVars(\"avatarSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\t\talt=\"Wystąpił problem!\"\n                    title=\"${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n                    target=\"_blank\"\n                >\n                <img\n                    src=\"${tempVars(\"avatarSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\t\talt=\"Wystąpił problem!\"\n                    width=\"200px\"\n                    height=\"200px\"\n                />\n            </a>\n        </font>\n    </div>\n\t\n    <!-- Ikona serwera, po prawej. -->\n    <div style='float:right'>\n        <font size=\"4px\">\n            <center>\n\t\t\t\t<b>\n\t\t\t\t• Awatar serwera:\n\t\t\t\t</b>\n\t\t\t</center> \n            <a\n            href=\"${tempVars(\"ikonaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\ttitle=\"${tempVars(\"nazwaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n            target=\"_blank\"\n            >\n\t\t\t\t<img\n\t\t\t\tsrc=\"${tempVars(\"ikonaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\twith=\"200px\"\n\t\t\t\theight=\"200px\"\n\t\t\t\tstyle='float:right'\n\t\t\t\t/>\n            </a>\n        </font>\n    </div>\n\t\n    <!-- INFORMACJĘ OD UŻYTKOWNIKA -->\n    <center>\n        <font size=\"6px\" color=\"red\">\n            <b>\n\t\t\t»\n                <u>Informację od użytkownika:</u>\n\t\t\t«\n            </b>\n        </font>\n\t\t<br>\n\t\t<code>\n\t\t\t<b>\n            • Tekst po komendzie, który napisał użytkownik zgłaszający problem:\n\t\t\t</b>\n\t\t\t</code>\n        <br>\n        <code>\n            <textarea  cols=\"130\" rows=\"10\" readonly>\n${tempVars(\"Opis-Buga\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\n            </textarea>\n        </code>\n        <br>\n    </center>\n    \n    <!-- STOPKA -->\n    <hr>\n    <center>\n        <font size=\"3px\">\n            <b>\n                Skrypt i komenda wykonana przez <code>Taki Tam Slu 🔥#5916</code>. Serwery i boty twórcy:<br>\n                <a href=\"https://discord.gg/26fu8Wf\" title=\"Fani Anime (v4.2) [PL] ©\" target=\"_blank\"><button>Serwer Anime</button></a>\n                <a href=\"https://discordbots.org/bot/546058545917984769#filemon-bot\" title=\"FiluśBot™#3100\" target=\"_blank\"><button>Bot twórcy tego działa</button></a>\n\t\t\t\t<a href=\"https://discord.gg/sYnyd6m\" title=\"FilemonBot Support™\" target=\"_blank\"><button>Serwer Wspracie bota FiluśBot™#3100</button></a>\n           </b>\n        </font>\n    </center>\n</body>\n</html>",
+      "input": "<!--[] Copyright © 2019 All rights reserved. []-->\n<!DOCTYPE html> <!--{ TYP DOKUMENTU: HTML }-->\n<!--(LICENSE\n\t» *PL:*\n\t• Skrypt zrobiony przez: Taki Tam Slu 🔥#5916.\n\t• Wersja: v0.4\n\t• Możesz kożystać z tej komendy, skryptu jeśli zostawisz ten wpis. \n\tCopyright © 2019 All rights reserved.\n\t\t**Co Nowego?**\n\t\t- Poprawki w kodzie\n\t\t- Poprawki językowe\n\t\t- Plik favicon.ico sam się wczyta. Nie musisz go posiadać na swoim komputerze.\n\t\t- Poprawki z stroną www db.filemon-bot.pl. Dodano certyfikat SSL. (Zmiana http, na https)\n\t\t- Usunięto TAG użytkownika. Będzie się on znajdować przy nicku.\n\t\t- Dodano nową akcję. Jeśli ktoś użył komendy, zostanie wysłana wiadomość do konsoli.\n\n\t» *ENG:*\n\t• Script made by: Taki Tam Slu 🔥#5916.\n    • Version: v0.4\n    • You can use this command, script if you leave this entry.\n\tCopyright © 2019 All rights reserved.\n\t\t**What's new?**\n\t\t- Improvements in the code\n\t\t- Language corrections\n\t\t- The favicon.ico file will be loaded. You do not have to have it on your computer.\n\t\t- Amendments with the db.filemon-bot.pl website. SSL certificate added. (Change http, to https)\n\t\t- User TAG has been removed. It will be located at the nickname.\n\t\t- A new action has been added. If someone used the command, a message will be sent to the console.\nLICENSE)-->\n<html lang=\"pl\">\n<head>\n\t<title>Raport</title>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <link src=\"https://db.filemon-bot.pl/bug/favicon.ico\" rel=\"Shortcut Icon\">\n</head>\n<body>\n    <!-- WSTĘP -->\n    <center>\n        <font size=\"6px\" color=\"blue\">\n            <b>\n                » Buga zgłosił: <code>${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}</code>.<br>\n            </b>\n        </font>\n        <font size=\"3px\">\n\t\t\t<b>\n\t\t\t\tData wygenerowania raportu:\n\t\t\t</b> \n\t\t\t<code>\n\t\t\t\t${tempVars(\"dzien\")}.${tempVars(\"miesiac\")}.${tempVars(\"rok\")},\n\t\t\t</code>\n\t\t\t<b>\n\t\t\t\to godzienie:\n\t\t\t</b>\n\t\t\t<code>\n\t\t\t\t${tempVars(\"godzina\")}:${tempVars(\"minuta\")}:${tempVars(\"sekunda\")}.\n\t\t\t</code>\n\t\t\t<br>\n        <b>\n            Bot:\n        </b> \n            Wpisz nazwe twojego bota tutaj. Akcja (File Control)\n #51<br>\n        </font>\n    </center>   \n    <hr>\n\n\n\n\t\n    <font size=\"5px\" color=\"#b803ff\" face=\"cursive\" align=\"center\">\n\t\t<center>\n\t\t»\n\t\t\t<b>\n\t\t\t\t<u>Informacje o zgłaszającym:</u>\n\t\t\t</b>\n\t\t«\n\t\t</center>\t\t\n    </font>\t\n\t\n    • <b>Nick zgłaszającego:</b> ${tempVars(\"nickTagSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>ID zgłaszającego:</b> ${tempVars(\"idSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Link do awatara:</b> <a href=\"${tempVars(\"avatarSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" title=\"${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" target=\"_blank\"><code><b>Kliknij</b></code></a><br>\n\n    <!-- SERWER -->\n\t<br>\n    <font size=\"5px\" color=\"#b803ff\" face=\"cursive\">\n\t\t<center>\n\t\t»\n\t\t\t<b>\n\t\t\t\t<u>Informacje o serwerze, na którym dokonano czynu:</u>\n\t\t\t</b>\n\t\t«\n\t\t</center>\t\t\n    </font>\t\n\t\t<font size=\"4px\" color=\"black\">\n\t\t\t<center>\n\t\t\t\t<b>\n\t\t\t\t\t<code>\n\t\t\t\t\t\t<i>\n\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t<a \n\t\t\t\t\t\t\t\t\thref=\"${tempVars(\"zapro\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\t\t\t\t\t\ttitle=\"Zaproszenie na serwer na którym dokonano czynu.\" \n\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\n\t\t\t\t\t\t\t\t\t» \n\t\t\t\t\t\t\t\t\t\tZapro na serwer\n\t\t\t\t\t\t\t\t\t«\n\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</i>\n\t\t\t\t\t</code>\n\t\t\t\t</b> \n\t\t\t</center>\n\t\t</font>\n\t<br>\n    • <b>Nazwa serwera:</b> ${tempVars(\"nazwaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>ID serwera:</b> ${tempVars(\"idSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Twórca serwera:</b> ${tempVars(\"tworcaSerwera.NICK\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>ID twórcy serwera:</b> ${tempVars(\"tworcaSerwera.ID\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Ludność na serwerze:</b> ${tempVars(\"osoby.na.SERWERZE\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}<br>\n    • <b>Link do awatara:</b> <a href=\"${tempVars(\"ikonaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" title=\"${tempVars(\"nazwaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\" target=\"_blank\"><code><b>Kliknij</b></code></a><br>\n\n\n    <hr>\n    <!-- Awatar użytkownika, po lewej. -->\n    <div style='float:left'>\n        <font size=\"4px\">\n            <center><b>• Awatar użytkownika:</b></center>\n                <a\n                    href=\"${tempVars(\"avatarSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\t\talt=\"Wystąpił problem!\"\n                    title=\"${tempVars(\"nickSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n                    target=\"_blank\"\n                >\n                <img\n                    src=\"${tempVars(\"avatarSprawcy\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\t\talt=\"Wystąpił problem!\"\n                    width=\"200px\"\n                    height=\"200px\"\n                />\n            </a>\n        </font>\n    </div>\n\t\n    <!-- Ikona serwera, po prawej. -->\n    <div style='float:right'>\n        <font size=\"4px\">\n            <center>\n\t\t\t\t<b>\n\t\t\t\t• Awatar serwera:\n\t\t\t\t</b>\n\t\t\t</center> \n            <a\n\t\t\t\thref=\"${tempVars(\"ikonaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\ttitle=\"${tempVars(\"nazwaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\ttarget=\"_blank\"\n            >\n\t\t\t\t<img\n\t\t\t\t\tsrc=\"${tempVars(\"ikonaSerwera\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\"\n\t\t\t\t\twith=\"200px\"\n\t\t\t\t\theight=\"200px\"\n\t\t\t\t\tstyle='float:right'\n\t\t\t\t/>\n            </a>\n        </font>\n    </div>\n\t\n    <!-- informacje OD UŻYTKOWNIKA -->\n    <center>\n        <font size=\"6px\" color=\"red\">\n            <b>\n\t\t\t»\n                <u>Wymagane parametry:</u>\n\t\t\t«\n            </b>\n        </font>\n\t\t<br>\n\t\t<code>\n\t\t\t<b>\n\t\t\t\t• Tekst po komendzie, który napisał użytkownik zgłaszający problem:\n\t\t\t</b>\n\t\t\t</code>\n        <br>\n        <code>\n            <textarea  cols=\"130\" rows=\"10\" readonly>\n${tempVars(\"Opis-Buga\") || \"<b>Błąd bota lub skryptu. Przepraszam 😥!</b>\"}\n            </textarea>\n        </code>\n        <br>\n    </center>\n    \n\t\n    <!-- STOPKA -->\n    <hr>\n    <center>\n        <font size=\"3px\">\n            <b>\n                Skrypt i komenda wykonana przez <code>Taki Tam Slu 🔥#5916</code>. Serwery i boty twórcy:<br>\n                <a href=\"https://discord.gg/26fu8Wf\" title=\"Fani Anime (PL) ©\" target=\"_blank\"><button>Serwer Anime</button></a>\n                <a href=\"https://discordbots.org/bot/546058545917984769#filemon-bot\" title=\"FilemonBot™#3100 - Dodaj bota na swój serwer.\" target=\"_blank\"><button>Bot twórcy tego działa</button></a>\n\t\t\t\t<a href=\"https://discord.gg/sYnyd6m\" title=\"FilemonBot™#3100 - Serwer support bota.\" target=\"_blank\"><button>Serwer Wspracie bota FilemonBot™#3100</button></a>\n           </b>\n        </font>\n    </center>\n</body>\n</html>",
       "format": "",
       "filename": "${tempVars(\"nickSprawcy\")} [NazwaTwegoBota].html",
       "filepath": "./",
@@ -336,11 +364,6 @@
     {
       "comment": "<b>--------------------------------------------------------------------------</b>",
       "color": "#000000",
-      "name": "Comment"
-    },
-    {
-      "comment": "Wszystko git! Wysyłamy raport na serwer...",
-      "color": "#00ffff",
       "name": "Comment"
     },
     {
@@ -359,7 +382,7 @@
     {
       "storage": "1",
       "varName": "embed-done",
-      "message": "Wiadomość została dostarczona na serwer bota. Odczekuj na odpowiedź.\n\n__**Treść twojego raportu:**__\n```\n${tempVars(\"Opis-Buga\") || \"Błąd w skrypcie, przepraszam...\"}\n```",
+      "message": "Wiadomość została dostarczona na serwer bota. Odczekuj na odpowiedź.\n> Komenda stworzona przez **Taki Tam Slu 🔥#5916**\n\n__**Treść twojego raportu:**__\n```\n${tempVars(\"Opis-Buga\") || \"Błąd w skrypcie, przepraszam...\"}\n```",
       "name": "Set Embed Description"
     },
     {
@@ -370,6 +393,10 @@
       "storage3": "0",
       "varName3": "",
       "name": "Send Embed Message"
+    },
+    {
+      "tosend": "-------------------------------------------------------------------------------------------------\nUżytkownik ${tempVars(\"nickTagSprawcy\") || \"<Błąd!>\"} wygenerował nowy raport. Sprawdź go!\n-------------------------------------------------------------------------------------------------",
+      "name": "Send Message to Console"
     }
   ],
   "_id": "Sizyp",

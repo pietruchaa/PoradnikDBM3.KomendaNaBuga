@@ -1,16 +1,25 @@
-Wersja: v0.3
-=.=PL:=.=
-**Co Nowego?**
-- Możesz wejść na serwer (na którym dokonano czynu), poprzez zaproszenie które twój bot wygenerował.
-- Poprawa styli.
-- Naprawiono kilka błędów.
-- Usuniętno date/godzine stworzenia serwera na którym dokonano czynu.
-- Dodano date stworzenia raportu.
+	» *PL:*
+	• Skrypt zrobiony przez: Taki Tam Slu 🔥#5916.
+	• Wersja: v0.4
+	• Możesz kożystać z tej komendy, skryptu jeśli zostawisz ten wpis. 
+	Copyright © 2019 All rights reserved.
+		**Co Nowego?**
+		- Poprawki w kodzie
+		- Poprawki językowe
+		- Plik favicon.ico sam się wczyta. Nie musisz go posiadać na swoim komputerze.
+		- Poprawki z stroną www db.filemon-bot.pl. Dodano certyfikat SSL. (Zmiana http, na https)
+		- Usunięto TAG użytkownika. Będzie się on znajdować przy nicku.
+		- Dodano nową akcję. Jeśli ktoś użył komendy, zostanie wysłana wiadomość do konsoli.
 
-=.=ENG:=.=
-**What's new?**
-- You can enter the server (on which the action was made), through the invitation that your bot generated.
-- Style improvement.
-- Several bugs fixed.
-- Removed date/hour of creating the server on which the action was performed.
-- Date of creation of the report has been added.
+	» *ENG:*
+	• Script made by: Taki Tam Slu 🔥#5916.
+    • Version: v0.4
+    • You can use this command, script if you leave this entry.
+	Copyright © 2019 All rights reserved.
+		**What's new?**
+		- Improvements in the code
+		- Language corrections
+		- The favicon.ico file will be loaded. You do not have to have it on your computer.
+		- Amendments with the db.filemon-bot.pl website. SSL certificate added. (Change http, to https)
+		- User TAG has been removed. It will be located at the nickname.
+		- A new action has been added. If someone used the command, a message will be sent to the console.
